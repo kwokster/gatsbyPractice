@@ -1,13 +1,10 @@
 import React from "react"
-import styles from "./navbar.module.css"
-// console.log(styles)
+import { Link } from "gatsby"
 
 const Nav = () => {
   return (
-    <div className={styles.navbar}>
+    <div>
       <h1>Nav Bar</h1>
-      <p className={styles.links}>Nav bar link</p>
-
     </div>
   )
 }
