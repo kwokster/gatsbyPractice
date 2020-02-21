@@ -6,11 +6,11 @@ import "./layout.css"
 const Layout = ({ children }) => {
   return (
     //Fragment shorthand
-    <>
+    <main>
       <Nav />
       {children}
       <Footer />
-    </>
+    </main>
   )
 }
 
